@@ -1,6 +1,6 @@
 ---
 - name: Create user on a linux server
-  hosts: remote-server
+  hosts: 10.150.20.52
   become: yes
   gather_facts: false
   vars:
